@@ -1,0 +1,5 @@
+{
+    "code-runner.executorMap": {
+        "java": "cd \"$workspaceRoot\" && if not exist out mkdir out && javac -encoding UTF-8 -d out src\\VERSION3\\*.java && java -cp out VERSION3.Main"
+    }
+}
